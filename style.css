@@ -1,0 +1,31 @@
+body{
+    background-image: url('ritvik.png');
+    background-color: rgb(252, 2, 2);
+}
+.header{
+    background-color: yellow;
+   text-align: center;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid img{
+   
+    border : 2px solid black;
+border-radius: 50px;
+}
+.items{
+   
+    border-radius: 20px;
+    background-color: rgba(252, 2, 189, 0.692);
+    width :310px;
+    font-family: fantasy;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
